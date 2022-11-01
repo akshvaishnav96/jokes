@@ -1,0 +1,49 @@
+  
+  *{
+    margin:0%;
+    padding: 0%;
+  }
+
+  
+ .card{
+    background-color: black !important;
+  height: 100vh !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .card_title{
+    color: grey;
+    font-size: 4rem;
+    font-style: italic;
+    text-shadow: -1px 3px 5px grey;
+    margin: 15px 0px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  
+  .card_body{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    border-radius: 10px;
+    height: 400px !important;
+    padding: 40px;
+    box-shadow: -2px 5px 10px grey , 2px -5px 10px grey;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+  }
+
+#btn{
+    background-color: transparent;
+    border-color: grey;
+    margin-top: 20px;
+}
+  
